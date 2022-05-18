@@ -1,0 +1,221 @@
+body {
+  background-color: #f3f5f5;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #4a4a4a;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+span {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1.5rem;
+}
+
+li {
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* First banner */
+
+main {
+  margin-top: 4rem;
+}
+
+.learn {
+  display: flex;
+  background-color: lightgray;
+  align-content: center;
+}
+
+.banner {
+  width: 60%;
+  height: auto;
+  margin: 2rem 1.5rem;
+}
+
+.banner-text {
+  margin: auto;
+  margin-right: 7rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: #4a4a4a;
+  color: #f3f5f5;
+  border: none;
+  width: 100%;
+}
+
+/* Second section */
+
+.practicing {
+  display: flex;
+}
+
+.main-img {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+/*.main-img h1 {
+  margin: 2rem 0 1.5rem;
+}*/
+
+.citation {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.side-column {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 1rem 0 2rem 0;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  border: 1px solid lightgray;
+  transition: background-color 1s;
+}
+
+.title:hover {
+  background-color: lightgray;
+}
+
+.title img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Third section */
+
+.start {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.start h1 {
+  margin: 2rem 0 0;
+}
+
+.start-frame {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  margin: 2rem 4.5rem;
+}
+
+.courses {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 1 28%;
+  margin: 1rem;
+  background-color: white;
+}
+
+.courses img {
+  height: auto;
+  width: 100%;
+}
+
+.info-start {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.info-start p {
+  height: 100%;
+}
+
+/* Fourth section */
+
+.practicing-ex {
+  display: flex;
+  flex-direction: column;
+}
+
+.practicing-ex h1 {
+  text-align: center;
+  margin: 2rem 0 0;
+}
+
+.main-container {
+  display: flex;
+}
+
+.side-column-ex {
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+ /* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+small {
+  margin-left: 1.5rem;
+}
