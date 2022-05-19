@@ -1,7 +1,7 @@
 body {
   background-color: #f3f5f5;
   font-size: 16px;
-  font-family: sans-serif;
+  font-family: 'Visby', sans-serif;
   color: #4a4a4a;
   margin: 0 auto;
   padding: 0;
@@ -122,9 +122,9 @@ h1 {
     margin: 2rem 1rem;
   }
 
-.banner-text h1,h3 {
-  text-align: center;
-}
+  .banner-text h1,h3 {
+    text-align: center;
+  } 
 }
 
 /* Second section */
@@ -312,6 +312,13 @@ h1 {
   margin: 2rem 0 0;
 }
 
+.video-left {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
 .main-container {
   display: flex;
 }
@@ -320,6 +327,38 @@ h1 {
   justify-content: flex-start;
   margin-top: 2rem;
 }
+
+@media only screen and (max-width: 685px) {
+  .side-column-ex {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-left {
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  .video-left h1 {
+    display: none;
+  }
+
+  .video-left p {
+    display: none;
+  }
+  
+  footer ul {
+    display: none;
+  }
+}
+  
+
+
+
  /* Footer */
 
 footer {
