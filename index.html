@@ -10,15 +10,35 @@
       <div class="header">
         <div class="logo">
           <img src="./resources/images/ic-logo.svg" alt="logo">
-          <span><b>Colmar</b>Academy</span>
+          <span><strong>Colmar</strong>Academy</span>
         </div>
-        <nav>
+        <nav class="desktop">
           <ul>
             <li><a href="#">On campus</a></li>
             <li><a href="#">Online</a></li>
             <li><a href="#">For companies</a></li>
             <li><a href="#">Sign in</a></li>
           </ul>
+        </nav>
+        <nav class="mobile">
+          <span>
+            <img src="./resources/images/ic-logo.svg" alt="logo">
+          </span>
+          <span>
+            <a href="#">
+              <img src="./resources/images/ic-on-campus.svg" alt="On Campus">
+            </a>
+          </span>
+          <span>
+            <a href="#">
+              <img src="./resources/images/ic-online.svg" alt="Online">
+            </a>
+          </span>
+          <span>
+            <a href="@">
+              <img src="./resources/images/ic-login.svg" alt="Login">
+            </a>
+          </span>
         </nav>
       </div>
     </header>
@@ -40,7 +60,9 @@
         </div>
         <div class="side-column">
           <div class="title">
-            <img src="./resources/images/information-orientation.jpg" alt="orientation">
+            <div class="title-image">
+              <img src="./resources/images/information-orientation.jpg" alt="orientation">
+            </div>
             <div class="info">
               <h3>Orientation date</h3>
               <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -48,7 +70,9 @@
             </div>
           </div>
           <div class="title">
-            <img src="./resources/images/information-campus.jpg" alt="map in a room">
+            <div class="title-image">
+              <img src="./resources/images/information-campus.jpg" alt="map in a room">
+            </div>
             <div class="info">
               <h3>Our campus</h3>
               <p>Find which campus is close by you</p>
@@ -56,7 +80,9 @@
             </div>
           </div>
           <div class="title">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="old man in glasses">
+            <div class="title-image">
+              <img src="./resources/images/information-guest-lecture.jpg" alt="old man in glasses">
+            </div>
             <div class="info">
               <h3>Our guest lecture</h3>
               <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -118,7 +144,7 @@
           </div>
         </div>
 
-      </section>
+      </section><!--fourth section-->
       <section class="practicing-ex">
         <h1>Thesis exhibit</h1>
         <div class="main-container">
@@ -132,14 +158,18 @@
           </div>
           <div class="side-column-ex">
             <div class="title">
-              <img src="./resources/images/thesis-fisma.jpg" alt="phone and drawing">
+              <div class="title-image">
+                <img src="./resources/images/thesis-fisma.jpg" alt="phone and drawing">
+              </div>
               <div class="info">
                 <h3>Fisma: Design and Prototype</h3>
                 <p>Designer showcase of new prototype product</p>
               </div>
             </div>
             <div class="title">
-              <img src="./resources/images/thesis-now-and-then.jpg" alt="Empire State Building">
+              <div class="title-image">
+                <img src="./resources/images/thesis-now-and-then.jpg" alt="Empire State Building">
+              </div>
               <div class="info">
                 <h3>Now and then</h3>
                 <p>Research study about New York</p>
@@ -149,7 +179,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer><!--footer-->
       <div>
         <small>&copy; Colmar Academy. All rights reserved.</small>
       </div>
